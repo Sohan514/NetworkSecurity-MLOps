@@ -1,0 +1,54 @@
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+secrets.*
+credentials.json
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python caches, builds, local tooling
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Generated ML artifacts and tracking data
+Artifacts/
+artifacts/
+final_model/
+saved_models/
+mlruns/
+mlartifacts/
+*.pkl
+*.joblib
+*.npy
+
+# Data and output (verify distribution rights before committing)
+Network_Data/*.csv
+prediction_output/
+
+# Logs and common editor/system files
+logs/
+*.log
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Coverage and local runtime
+.coverage
+htmlcov/
